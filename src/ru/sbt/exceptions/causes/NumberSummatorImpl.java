@@ -8,6 +8,10 @@ import java.util.List;
 public class NumberSummatorImpl implements NumberSummator {
     @Override
     public int sum() {
+        if (true) {
+            throw new Error();
+        }
+
         List<String> strings = null;
         try {
             strings = Files.readAllLines(new File("numbers.txt").toPath());
