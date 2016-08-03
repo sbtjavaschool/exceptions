@@ -1,6 +1,8 @@
 *.log
 *.class
 *.jar
+*.xml
+out/
 !gradle/wrapper/gradle-wrapper.jar
 logs/
 target/
